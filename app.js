@@ -186,6 +186,8 @@ for (var i=0; i<completedTasksHolder.children.length;i++){
     bindTaskEvents(completedTasksHolder.children[i],taskIncomplete);
 }
 
+alert('привет, доделываю, осталось немного селекторы поменять, прошу оставить свой дискорд чтобы мог связаться когда доделаю работу')
+
 
 
 
