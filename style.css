@@ -95,7 +95,7 @@ input,button{
   color: #888;
 }
 
-input[type="text"]:focus {
+.input__style:focus {
   color: #333;
 }
 
