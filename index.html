@@ -14,25 +14,25 @@
       <section class="add-section">
       <h3 class="title add-section_title">Add Item</h3>
       <div class="add-section_wrapper add-wrapper">
-        <input id=""class="task new-task" type="text">
-        <button class="btn">Add</button>
+        <input class="task new-task input__style" type="text">
+        <button class="btn add__btn">Add</button>
       </div>
       </section>
       <h3 class="title">Todo</h3>
-      <section class="todo-section">
-        <li>
-          <input type="checkbox">
-          <label class="task">Pay Bills</label>
-          <input type="text" class="task">
+      <section class="todo-section todo">
+        <li class="edit todo__item">
+          <input type="checkbox" class="todo__item-checkbox">
+          <label class="task task-name">Pay Bills</label>
+          <input type="text" class="task input__style main__input">
           <button class="edit btn">Edit</button>
           <button class="remove btn">
             <img class="remove__img" src="./remove.svg">
           </button>
         </li>
-        <li class="editMode">
-          <input type="checkbox">
-          <label class="task">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task">
+        <li class="edit-mode todo__item">
+          <input type="checkbox" class="todo__item-checkbox">
+          <label class="task task-name">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="task input__style main__input todo__item-input">
           <button class="edit btn">Save</button>
           <button class="remove  btn">
             <img class="remove__img" src="./remove.svg">
@@ -40,11 +40,11 @@
         </li>
       </section>
       <h3 class="title">Completed</h3>
-      <section class="section-completed">
-        <li>
-          <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
+      <section class="section-completed completed">
+        <li class="todo__item">
+          <input type="checkbox" class="todo__item-checkbox" checked>
+          <label class="task task-name">See the Doctor</label>
+          <input type="text" class="input__style main__input">
           <button class="edit btn">Edit</button>
           <button class="remove btn">
             <img class="remove__img" src="./remove.svg">
