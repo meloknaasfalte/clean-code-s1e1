@@ -19,7 +19,7 @@ var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
     listItem.classList.add('edit');
-    listItem.classList.add('todo__list');
+    listItem.classList.add('todo__item');
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
     checkBox.classList.add('todo__item-checkbox');
