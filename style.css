@@ -49,11 +49,13 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
@@ -146,10 +148,7 @@ input,button{
 }
 
 /* Completed */
-/* ul#completed-tasks label {
-  text-decoration: line-through;
-  color: #888;
-} */
+
 .completed .task-name{
     text-decoration: line-through;
     color: #888;
